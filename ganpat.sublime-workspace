@@ -1,0 +1,457 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"the_data",
+				"the_data"
+			],
+			[
+				"the",
+				"the_data"
+			],
+			[
+				"image",
+				"image_counter"
+			],
+			[
+				"nam",
+				"name_is"
+			],
+			[
+				"sear",
+				"search_element"
+			],
+			[
+				"musc",
+				"music_genre"
+			],
+			[
+				"music",
+				"music_genre"
+			],
+			[
+				"padd",
+				"padding-right"
+			],
+			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"ti",
+				"tinyscrollbar"
+			],
+			[
+				"sc",
+				"scrollbar2"
+			],
+			[
+				"mood",
+				"mood"
+			],
+			[
+				"moody",
+				"moodymusic"
+			],
+			[
+				"ret",
+				"returned_tracks"
+			],
+			[
+				"hide",
+				"hidden"
+			],
+			[
+				"event",
+				"eventName"
+			],
+			[
+				"visi",
+				"visible"
+			],
+			[
+				"vi",
+				"visibility"
+			],
+			[
+				"Lig",
+				"lightBox_back"
+			],
+			[
+				"data",
+				"data-artist"
+			],
+			[
+				"r",
+				"r-8"
+			],
+			[
+				"d",
+				"drawCircle"
+			],
+			[
+				"sy",
+				"sym1"
+			],
+			[
+				"boo",
+				"bookIdIsS"
+			],
+			[
+				"my",
+				"mysql_stat"
+			],
+			[
+				"user",
+				"user_id"
+			],
+			[
+				"bookid",
+				"bookid"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"book",
+				"bookIdIs"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"sess",
+				"session_encode"
+			],
+			[
+				"vol",
+				"volumeInfo"
+			],
+			[
+				"session_de",
+				"session_destroy"
+			],
+			[
+				"error_",
+				"error_reporting"
+			],
+			[
+				"mysql_fetch",
+				"mysql_fetch_assoc"
+			],
+			[
+				"mysql_num",
+				"mysql_num_rows"
+			],
+			[
+				"mysql_er",
+				"mysql_error"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
+				"ex",
+				"exit"
+			],
+			[
+				"mysql",
+				"mysql_error"
+			],
+			[
+				"co",
+				"connection"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "downloader.py",
+			"settings":
+			{
+				"buffer_size": 3365,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "ganpat.py",
+			"settings":
+			{
+				"buffer_size": 693,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "parser.py",
+			"settings":
+			{
+				"buffer_size": 5416,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 139.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/p3rry/workspace/GANPAT/ganpat.sublime-workspace",
+		"/var/www/moody/moodymusic/php/index.html",
+		"/var/www/moody/moodymusic/php/js/jquery.tinyscrollbar.min.js",
+		"/var/www/moody/moodymusic/php/css/website.css",
+		"/var/www/reveal/index.html",
+		"/var/www/canvas/c1.html",
+		"/var/www/bookworm/addbooktoself.php",
+		"/var/www/bookworm/pushbook.php",
+		"/var/www/bookworm/book.php",
+		"/var/www/bookworm/search.php",
+		"/var/www/bookworm/index.php",
+		"/var/www/bookworm/bookHandler.js",
+		"/media/OS/wamp/www/igeeek/8tracks/index.html",
+		"/var/www/moody/index.html",
+		"/var/www/reveal/README.md",
+		"/var/www/moody/css/moody.default.css",
+		"/var/www/reveal/js/reveal.js",
+		"/var/www/moody/js/reveal.js",
+		"/home/p3rry/Desktop/COMPILER/index.html",
+		"/home/p3rry/Desktop/coverflow1/index.html",
+		"/home/p3rry/Desktop/coverflow1/js/app.js",
+		"/var/www/bookworm/data.sql",
+		"/home/p3rry/workspace/CL/lab3_2.py",
+		"/home/p3rry/workspace/CL/lab2_2.py",
+		"/home/p3rry/workspace/CL/lab2.py",
+		"/home/p3rry/workspace/CL/lab3.py",
+		"/var/www/bookworm/CSS/bookDetail.css",
+		"/var/www/bookworm/check_login.php",
+		"/var/www/bookworm/untitled.data",
+		"/var/www/bookworm/db.php",
+		"/var/www/bookworm/JS/bookSearchJS.js",
+		"/var/www/bookworm/CSS/main.css",
+		"/var/www/bookworm/logout.php",
+		"/var/www/bookworm/JS/example-bookresult.js",
+		"/var/www/bookworm/2.php",
+		"/var/www/bookworm/JS/sampleJSON.js",
+		"/home/p3rry/workspace/python/clg/sym1.py"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"location.href",
+			"progress",
+			"transition",
+			"default",
+			"transition",
+			"artist",
+			"click",
+			"pat.png",
+			"pat.pnh",
+			"title\"",
+			"imageLinks"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "downloader.py",
+					"settings":
+					{
+						"buffer_size": 3365,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 993.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "ganpat.py",
+					"settings":
+					{
+						"buffer_size": 693,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								348,
+								348
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "parser.py",
+					"settings":
+					{
+						"buffer_size": 5416,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5156,
+								5156
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2203.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 177.0,
+	"status_bar_visible": true
+}
