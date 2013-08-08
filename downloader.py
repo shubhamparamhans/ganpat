@@ -14,9 +14,9 @@ class downloader:
         self._site_url=site_url
     
     def download(self):
-            log_write="%s : Started downloading %s \n" %(time.ctime(time.time()), self._site_url);
-            self._write_log(log_write);
-           
+        log_write="%s : Started downloading %s \n" %(time.ctime(time.time()), self._site_url);
+        self._write_log(log_write);
+        try :
             conn=urllib2.urlopen(self._site_url);
             response=conn.getcode();
             data=conn.read();
@@ -59,6 +59,9 @@ class downloader:
                 return False;
                 
             return True;
+        except Exception:
+            log_write="%s : Exception in downloading %s" %(time.ctime(time.time()),self._site_url);
+            return False;
         
     def _write_log(self,data):
         print data;

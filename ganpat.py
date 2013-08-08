@@ -11,24 +11,28 @@ _d_images=[];
 
 def rem_dup(check_var,temp_data):
     temp_data_len=len(temp_data);
-
+    add_counter=0;
     if check_var==1:
         for zxc in range(0,temp_data_len):
             if not(_links.__contains__(temp_data[zxc])):
                 _links.append(temp_data[zxc]);
                 _d_links.append(temp_data[zxc]);
+                add_counter+=1;
+        print "%s : %s new links added" %(time.ctime(time.time()),add_counter);
 
     elif check_var==2:
         for zxc in range(0,temp_data_len):
             if not(_images.__contains__(temp_data[zxc])):
                 _images.append(temp_data[zxc]);
                 _d_images.append(temp_data[zxc]);
+                add_counter+=1;
+        print "%s : %s new images added" %(time.ctime(time.time()),add_counter);
 
 def check_rel(temp_data,check_data,add_data) :
     temp_data_len=len(temp_data);
     for zxc in range(0,temp_data_len):
         if not(temp_data[zxc].__contains__(check_data)):
-            temp_data[zxc]=add_data+"/"+temp_data[zxc];
+            temp_data[zxc]=add_data+temp_data[zxc];
 
     return temp_data;
 
