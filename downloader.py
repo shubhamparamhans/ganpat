@@ -23,6 +23,8 @@ class downloader:
             self._data=data;
             meta=conn.info();
             
+	    print "Meta info:";
+	    print meta;
             log_write="%s : Downloading %s complete\n" %(time.ctime(time.time()), self._site_url);
             self._write_log(log_write);
             

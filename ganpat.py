@@ -1,9 +1,9 @@
 import sys
 import time
+import thread;
 from downloader import downloader
 from parser import parser
 
-print "*************GANPAT, THE CRAWLER**************";
 _links=[];
 _images=[];
 _d_links=[];
@@ -19,6 +19,7 @@ def rem_dup(check_var,temp_data):
                 _d_links.append(temp_data[zxc]);
                 add_counter+=1;
         print "%s : %s new links added" %(time.ctime(time.time()),add_counter);
+        print "%s : %s links pending" %(time.ctime(time.time()),len(_d_links));
 
     elif check_var==2:
         for zxc in range(0,temp_data_len):
@@ -36,6 +37,18 @@ def check_rel(temp_data,check_data,add_data) :
 
     return temp_data;
 
+def do_the_thing():
+    while len(_d_links)!=0 :
+        temp_down=downloader(sys.argv[1],_d_links.pop());
+        if temp_down.download():
+            temp_parser=parser(temp_down._save_location(),temp_down._data_is(),_d_links.pop());
+            if temp_parser.parse():
+                temp_links=temp_parser.links_are();
+                temp_links=check_rel(temp_links,"http://",sys.argv[2]);
+                rem_dup(1,temp_links);
+                temp_img=temp_parser.images_are();
+                rem_dup(2,temp_img);
+
 
 if len(sys.argv)>2 :
     print "SITE: ",sys.argv[1]," started at ",time.ctime(time.time());
@@ -48,18 +61,32 @@ if len(sys.argv)>2 :
             rem_dup(1,temp_links);
             temp_img=parse1.images_are();
             rem_dup(2,temp_img);
-        while len(_d_links)!=0 :
-            temp_down=downloader(sys.argv[1],_d_links.pop());
-            if temp_down.download():
-                temp_parser=parser(temp_down._save_location(),temp_down._data_is(),_d_links.pop());
-                if temp_parser.parse():
-                    temp_links=temp_parser.links_are();
-                    temp_links=check_rel(temp_links,"http://",sys.argv[2]);
-                    rem_dup(1,temp_links);
-                    temp_img=temp_parser.images_are();
-                    rem_dup(2,temp_img);
+            try:
+                thread.start_new_thread(do_the_thing,());
+                thread.start_new_thread(do_the_thing,());
+                thread.start_new_thread(do_the_thing,());
+                thread.start_new_thread(do_the_thing,());
+                thread.start_new_thread(do_the_thing,());
+                thread.start_new_thread(do_the_thing,());
+                thread.start_new_thread(do_the_thing,());
+                thread.start_new_thread(do_the_thing,());
+                thread.start_new_thread(do_the_thing,());
+                thread.start_new_thread(do_the_thing,());
 
-
+                thread.start_new_thread(do_the_thing,());
+                thread.start_new_thread(do_the_thing,());
+                thread.start_new_thread(do_the_thing,());
+                thread.start_new_thread(do_the_thing,());
+                thread.start_new_thread(do_the_thing,());
+                thread.start_new_thread(do_the_thing,());
+                thread.start_new_thread(do_the_thing,());
+                thread.start_new_thread(do_the_thing,());
+                thread.start_new_thread(do_the_thing,());
+                thread.start_new_thread(do_the_thing,());
+            except Exception:
+                print "Exception in thread";
+            while len(_d_links)!=0:
+                pass
 else :
 	print "USAGE: python ganpat.py <sitename> <siteurl>";
 	sys.exit(2);
