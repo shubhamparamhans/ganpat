@@ -13,7 +13,10 @@ _c_connect=ClusterConnect();
 _c_connect.start();
 
 print "********************GANPAT********************\n";
-_inp=""
+print "1.Start CRAWLER";
+print "2.Show CLUSTER";
+print "3.Exit";
+_inp==raw_input("Enter: ")
 while True:
 	_inp=raw_input("Enter command: ");
 	if _inp=="HELP":

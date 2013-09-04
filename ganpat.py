@@ -1,6 +1,6 @@
 import sys
 import time
-import thread;
+import thread
 from downloader import downloader
 from parser import parser
 

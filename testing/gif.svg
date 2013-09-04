@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="300"
+   height="300"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="gif.svg">
+  <defs
+     id="defs4">
+    <filter
+       inkscape:collect="always"
+       id="filter3861"
+       x="-0.21391301"
+       width="1.427826"
+       y="-0.21391301"
+       height="1.427826">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="8.9130421"
+         id="feGaussianBlur3863" />
+    </filter>
+    <filter
+       id="filter3000"
+       inkscape:label="Cross-smooth"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Blur inner borders and intersections"
+       height="1"
+       width="1"
+       y="0"
+       x="0"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur3002"
+         result="result6"
+         stdDeviation="0.4" />
+      <feComposite
+         id="feComposite3004"
+         in2="result6"
+         operator="in"
+         in="SourceGraphic"
+         result="result7" />
+      <feComposite
+         id="feComposite3006"
+         in2="result7"
+         operator="in"
+         result="fbSourceGraphic"
+         in="result7" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix3030" />
+      <feGaussianBlur
+         id="feGaussianBlur3032"
+         stdDeviation="3"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix3034"
+         result="fbSourceGraphic"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 6 -2.5 " />
+    </filter>
+    <filter
+       id="filter3008"
+       inkscape:label="Cross-smooth"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Blur inner borders and intersections"
+       x="-0.25"
+       width="1.5"
+       y="-0.25"
+       height="1.5"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur3010"
+         stdDeviation="5"
+         result="result1" />
+      <feTurbulence
+         id="feTurbulence3012"
+         numOctaves="1"
+         seed="0"
+         type="fractalNoise"
+         baseFrequency="0.1"
+         result="result2" />
+      <feDisplacementMap
+         id="feDisplacementMap3014"
+         in2="result2"
+         scale="5"
+         yChannelSelector="G"
+         xChannelSelector="R"
+         result="result3"
+         in="result1" />
+      <feComposite
+         id="feComposite3016"
+         in2="result3"
+         operator="atop"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix3036" />
+      <feGaussianBlur
+         id="feGaussianBlur3038"
+         stdDeviation="3"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix3040"
+         result="fbSourceGraphic"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 6 -2.5 " />
+    </filter>
+    <filter
+       id="filter3018"
+       inkscape:label="Cross-smooth"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Blur inner borders and intersections"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur3020"
+         stdDeviation="3" />
+      <feColorMatrix
+         id="feColorMatrix3022"
+         result="fbSourceGraphic"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 6 -2.5 " />
+    </filter>
+    <filter
+       id="filter3024"
+       inkscape:label="Cross-smooth"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Blur inner borders and intersections"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur3026"
+         stdDeviation="3" />
+      <feColorMatrix
+         id="feColorMatrix3028"
+         result="fbSourceGraphic"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 6 -2.5 " />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="-70.714286"
+     inkscape:cy="184.28571"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer5"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="712"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:1.37447988999999993;stroke-opacity:1;filter:url(#filter3008)"
+       id="rect2985-1"
+       width="137.44798"
+       height="137.44798"
+       x="10.18724"
+       y="10.18724">
+      <animate
+         id="animaterect1"
+         attributeName="opacity"
+         from="0"
+         to="1"
+         dur="0.1s"
+         begin="0s;animaterect3.end" />
+    </rect>
+  </g>
+  <g
+     inkscape:label="Layer 2"
+     inkscape:groupmode="layer"
+     id="layer2">
+    <rect
+       style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:1.37447988999999993;stroke-opacity:1;filter:url(#filter3000)"
+       id="rect2985-2"
+       width="137.44798"
+       height="137.44798"
+       x="154.50763"
+       y="10.18724">
+      <animate
+         id="animaterect2"
+         attributeName="opacity"
+         from="0"
+         to="1"
+         dur="0.1s"
+         begin="animaterect1.end" />
+    </rect>
+  </g>
+  <g
+     inkscape:label="Layer 3"
+     inkscape:groupmode="layer"
+     id="layer3">
+    <rect
+       style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:1.37447988999999993;stroke-opacity:1;filter:url(#filter3018)"
+       id="rect2985-3"
+       width="137.44798"
+       height="137.44798"
+       x="10.18724"
+       y="154.50763">
+      <animate
+         id="animaterect3"
+         attributeName="opacity"
+         from="0"
+         to="1"
+         dur="0.1s"
+         begin="animaterect4.end" />
+    </rect>
+  </g>
+  <g
+     inkscape:label="Layer 4"
+     inkscape:groupmode="layer"
+     id="layer4">
+    <rect
+       style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:1.37447988999999993;stroke-opacity:1;filter:url(#filter3024)"
+       id="rect2985-4"
+       width="137.44798"
+       height="137.44798"
+       x="154.50763"
+       y="154.50763">
+      <animate
+         id="animaterect4"
+         attributeName="opacity"
+         from="0"
+         to="1"
+         dur="0.1s"
+         begin="animaterect2.end" />
+    </rect>
+  </g>
+  <g
+     inkscape:label="Layer 5"
+     inkscape:groupmode="layer"
+     id="layer5">
+    <rect
+       style="fill:#fefefe;fill-opacity:1.0;stroke:#000000;stroke-opacity:1;filter:url(#filter3861)"
+       id="rect2985-0"
+       width="100"
+       height="100"
+       x="60"
+       y="60"
+       transform="matrix(1.3744799,0,0,1.3744799,-3.5575589,-3.5575589)">
+      <animate
+         id="animation1"
+         attributeName="opacity"
+         from="0.8"
+         to="1"
+         dur="1.5s"
+         begin="0s;animation2.end" />
+      <animate
+         id="lolanimate"
+         attributeName="opacity"
+         from="1"
+         to="1"
+         dur="1s"
+         begin="animation1.end" />
+      <animate
+         id="animation2"
+         attributeName="opacity"
+         from="1"
+         to="0.8"
+         dur="1.5s"
+         begin="lolanimate.end" />
+    </rect>
+  </g>
+</svg>
